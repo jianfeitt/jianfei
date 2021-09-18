@@ -410,14 +410,10 @@ $(function(){
 		$("#myModal").css("display",'block'); 
 	}); 
 	$(".copy_img").click(function(){
-	   /* $("#hide").val("H6543yy");
+	    $("#hide").val("H6543yy");
 		$("#hide").select();
 		document.execCommand("Copy");
-		alert("复制成功");*/
-		let data = {"data":1};
-		var content = JSON.stringify(data);
-		var blob = new Blob([content],{type:"text/plain;charset=utf-8"});
-		saveAs(blob,"a.txt");
+		alert("复制成功");
 	});
 //$(".fhtc").click(function(){ $("#myModal").css("display",'block'); }); 
 	
