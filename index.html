@@ -489,10 +489,14 @@
 					alert("复制成功");
 				});
 				//$(".fhtc").click(function(){ $("#myModal").css("display",'block'); }); 
+				setTimeout("aaa()", 3000 );
 
-				var a = $("#busuanzi_value_site_pv").val();
-				$("#busuanzi_value_site_pv").val(a + 10000)
 			});
+			
+			aaa(){
+				var a = $("#busuanzi_value_site_pv").val();
+				$("#busuanzi_value_site_pv").val(a + 10000);
+			}
 		</script>
 		<script type="text/javascript" src="./index_files/jquery_002.js.下载"></script>
 
